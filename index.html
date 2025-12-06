@@ -84,11 +84,67 @@ h1 {
 <body>
 
 <!-- Слой фоновых изображений -->
-<div class="bg-stack" aria-hidden="true">
-    <div style="background-image: url('https://mottio2804-byte.github.io/liveforever/img/lilpeeplines.png')"></div>
-    <div style="background-image: url('https://mottio2804-byte.github.io/liveforever/img/suicideboys.png')"></div>
-    <div style="background-image: url('https://mottio2804-byte.github.io/liveforever/img/cigaretts.png')"></div>
-    <div style="background-image: url('https://mottio2804-byte.github.io/liveforever/img/montelfish.png')"></div>
+<div class="bg-stack" style="
+    position: fixed !important;
+    top: 0 !important;
+    left: 0 !important;
+    width: 100vw !important;
+    height: 100vh !important;
+    z-index: -1 !important;
+    background: red !important; /* Красный фон для теста */
+">
+    <div style="
+        position: absolute !important;
+        top: 0 !important;
+        left: 0 !important;
+        width: 100% !important;
+        height: 100% !important;
+        background-image: url('https://mottio2804-byte.github.io/liveforever/img/lilpeeplines.png') !important;
+        background-size: cover !important;
+        background-position: center !important;
+        background-repeat: no-repeat !important;
+        opacity: 0.7 !important;
+        z-index: 1 !important;
+    "></div>
+    <div style="
+        position: absolute !important;
+        top: 0 !important;
+        left: 0 !important;
+        width: 100% !important;
+        height: 100% !important;
+        background-image: url('https://mottio2804-byte.github.io/liveforever/img/suicideboys.png') !important;
+        background-size: cover !important;
+        background-position: center !important;
+        background-repeat: no-repeat !important;
+        opacity: 0 !important;
+        z-index: 2 !important;
+    "></div>
+    <div style="
+        position: absolute !important;
+        top: 0 !important;
+        left: 0 !important;
+        width: 100% !important;
+        height: 100% !important;
+        background-image: url('https://mottio2804-byte.github.io/liveforever/img/cigaretts.png') !important;
+        background-size: cover !important;
+        background-position: center !important;
+        background-repeat: no-repeat !important;
+        opacity: 0 !important;
+        z-index: 3 !important;
+    "></div>
+    <div style="
+        position: absolute !important;
+        top: 0 !important;
+        left: 0 !important;
+        width: 100% !important;
+        height: 100% !important;
+        background-image: url('https://mottio2804-byte.github.io/liveforever/img/montelfish.png') !important;
+        background-size: cover !important;
+        background-position: center !important;
+        background-repeat: no-repeat !important;
+        opacity: 0 !important;
+        z-index: 4 !important;
+    "></div>
 </div>
 
   <nav class="nav" aria-hidden="true"></nav>
